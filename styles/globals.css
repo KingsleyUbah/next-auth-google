@@ -14,3 +14,51 @@ a {
 * {
   box-sizing: border-box;
 }
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #000;
+  color: #fff;
+  padding: 0 2rem;
+  width: 100%;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+.logo {
+  font-weight: 800;
+  color: #fff;
+  font-size: 1.8rem;
+}
+.btn-signin {
+   box-sizing: border-box;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  background-color: #000;;
+  outline: none;
+  border: 0;
+  cursor: pointer;
+  display: -webkit-box;
+  display: flex;
+  align-self: center;
+  font-size: 1.2rem;
+  line-height: 1;
+  margin: 20px;
+  font-weight: 700;
+  padding: 1.2rem;
+    width: 14rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  text-align: center;
+  font-family: inherit;
+  user-select: none;
+  color: #000;
+  background-color: #FBBC05;  
+}
+
+.btn-signin:hover {
+  background-color: #9b870c;
+  color: #000;  
+}
